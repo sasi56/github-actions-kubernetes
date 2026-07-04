@@ -1,0 +1,104 @@
+apiVersion: v1
+clusters:
+- cluster:
+    certificate-authority-data: LS0tLS1CRUdJTiBDRVJUSUZJQ0FURS0tLS0tCk1JSURCVENDQWUyZ0F3SUJBZ0lJUGZuajJvSEtSR2d3RFFZSktvWklodmNOQVFFTEJRQXdGVEVUTUJFR0ExVUUKQXhNS2EzVmlaWEp1WlhSbGN6QWVGdzB5TmpBM01EUXhNREk0TXpSYUZ3MHpOakEzTURFeE1ETXpNelJhTUJVeApFekFSQmdOVkJBTVRDbXQxWW1WeWJtVjBaWE13Z2dFaU1BMEdDU3FHU0liM0RRRUJBUVVBQTRJQkR3QXdnZ0VLCkFvSUJBUUN3VXZTUXNSRXhJMWhUeHhLTHMxME1WTmgwbXRVTlFjSjM3QnZHS05xV1RPM3BWcHJMRWFBN0lhTEsKTFhKeXpMbTZsQzFjaVMxVmZRY21ZWWM0WWZmOEVpUWp5OXBWU0ROYVFVd0V3eFpvV1pQbEFRa0pPOVVFUE9vRwpVaEZ0NWY5SHpBMlVPd1lhZTFRMEhiSnB5VWJiRXJLSEN4bkRlSWRWUm5oMmdjZHdwZUNvZytPaWpsN3A2M0hoCkhQRWoyczZpMVloQnIyYTlHUGY5UmJCTjVwaGRMR1ZKM1Z5TDB4Q1llMDJiY3RaSzlzNmJMTExVeGVlTVZSVFQKcWM5amdGNURsYkVwbUQxT3MrZ2h4am13blA1WnFnWlRxdThMZ2xOdlBKOFBkRHVGSVp2eDNjbUliUVF4d09aMgpQR1Y5UFRtSU8xWUhrUnNpaHB3bDluWExzVFJmQWdNQkFBR2pXVEJYTUE0R0ExVWREd0VCL3dRRUF3SUNwREFQCkJnTlZIUk1CQWY4RUJUQURBUUgvTUIwR0ExVWREZ1FXQkJTUGV6K0lySUNSeFZma2o5bzhrOVRoUE54Q29EQVYKQmdOVkhSRUVEakFNZ2dwcmRXSmxjbTVsZEdWek1BMEdDU3FHU0liM0RRRUJDd1VBQTRJQkFRQ1JmM1QxNmJKUQpuRmliUkxUMUtlRkw2cHp3M3ZIWU10Y3o1VU1LcDFad1hJcTdEVnIvcUZZSGZYaUQrUjVmcHpqNldJZ2lnbzUyClB2S2RlRmt6ZE1NV1RuR2w4eGlXdXFjc1ZvQUdUbGpyN2ZnWVZKMCtYNjI2aE03N3pTK0toK1NrdzhLbXE4dVoKRGx0Z1NYK1VxUWYxY2dJNTNRSnFOck1MR3pwTmJiS2VMcUZHWVplRDRta25NWi9PYXNVNzNRTExxOStLNER3QwpUV3crOUcyUzVFWmZHcXhyRTFrU0c1cjFZN1liNmVjYXVSUjV2Q0oxTFJjekQrNjJDdnlzQTdTNmJEOVMwZmg0CnpFaEQvVG5nby8zZ3l3ZVNBYlAvdkdpcXRZNFlKUmV3dW1iNG83K0JQWXM2eWhRWVR6R0hUTlJ0MlQvTzlIVHEKQVgzaWJxbXd5eFQ1Ci0tLS0tRU5EIENFUlRJRklDQVRFLS0tLS0K
+    server: https://E9B873071D1F3E0B3A5E28E586DE0348.gr7.ap-south-1.eks.amazonaws.com
+  name: arn:aws:eks:ap-south-1:538707364016:cluster/dev-cluster
+- cluster:
+    certificate-authority-data: LS0tLS1CRUdJTiBDRVJUSUZJQ0FURS0tLS0tCk1JSURCVENDQWUyZ0F3SUJBZ0lJWVlUOWVvTG1OaDB3RFFZSktvWklodmNOQVFFTEJRQXdGVEVUTUJFR0ExVUUKQXhNS2EzVmlaWEp1WlhSbGN6QWVGdzB5TmpBM01ETXlNVEV4TXpWYUZ3MHpOakEyTXpBeU1URTJNelZhTUJVeApFekFSQmdOVkJBTVRDbXQxWW1WeWJtVjBaWE13Z2dFaU1BMEdDU3FHU0liM0RRRUJBUVVBQTRJQkR3QXdnZ0VLCkFvSUJBUURHUlptUHZuM0RqY3RsdTI0cGRxS2JpOUIzWVBDM2pFYVlTTnYrS0FlKy9JbWYvUDRSdkNVYU1YU1oKSGlaQ1JIMUpNaWIxMy8ra3JzMTI0K3NXNnVUeVp6WTdzNWZJZENIYWR3bjIxQitKR25sSlFxWk9JUlVoMkxaUAphWm9hMkEwdDY0RGpTN2dOODFOMG1YVk5YNk4rQXJ0SFlvZk96bFJLRVBZa09zTGpwVk13a3QyN3k1dERxRmFvCmJxa1NNd3FCUlJoZ2puV3BTOGdTaHVBYTU1Ym5iZDNlSkxXbGpDQlRpMFM5Z1h1bnE3TkJ0dHY4Z3F2MDdFcjUKR2FqbHlmOW12Q3htdi9uQ093Zzd3MzExYzhQeXNQUUh0dHpJRk5QVnkzZ2xMZGlxNzcvMU8xQkMyc3ZRSFgwYQo4MjNTU3gvcm54OWlUSEJ5MUpacUpKVVhBbElmQWdNQkFBR2pXVEJYTUE0R0ExVWREd0VCL3dRRUF3SUNwREFQCkJnTlZIUk1CQWY4RUJUQURBUUgvTUIwR0ExVWREZ1FXQkJTemFyWnZqb2x1T3VpMHc0MTlIMUd3OGVISmVEQVYKQmdOVkhSRUVEakFNZ2dwcmRXSmxjbTVsZEdWek1BMEdDU3FHU0liM0RRRUJDd1VBQTRJQkFRQ3hCcTZwa0dYQgpFcWpibDFVWVZCOEtjbkRaZ2lZZkNWTWd6c0xMRGppZWRtK1N5K0tEUVp5YzZiVE51eW9paisrZjVURjNkcjNQCk1JSEFHSk10a3FHYWgybys4ckNVcktvQXc1Z1Y2c2xRdWNmZm1LNGd3ejJVcEkxZnFKUVZBTjNldTNkNUp4SlQKL3g4VlVlaXU4QmdDeE4wS01wTkx3cytSSEFFVWJPZ2FtTW5TTndmMVFwb2JSQUJsWVZLazZGQ1V5VzczRkxEYQpQRkVqU1RCckovb1NsSm5BSU85eEZvcU1VMVBTODYwV3RWUlJIUUczRzI3NGZnU2lJbXQzbUZXK1JveU9RcFRQCnB4Sk4rOHFtcXhvSzlmekgrdldOU3ErSE9xeDFYdDVwTXk4RUxxNEROOUxQZEJlNllBek1UWXV3SDRwWnA5dU8KeXVKSm9sL2hyQ2hQCi0tLS0tRU5EIENFUlRJRklDQVRFLS0tLS0K
+    server: https://78D85A6D28EB2BD9BB9E994C740FD795.gr7.ap-south-1.eks.amazonaws.com
+  name: arn:aws:eks:ap-south-1:538707364016:cluster/employee-cluster1
+- cluster:
+    certificate-authority-data: LS0tLS1CRUdJTiBDRVJUSUZJQ0FURS0tLS0tCk1JSURCVENDQWUyZ0F3SUJBZ0lJT3lRbkN3b2E1bnd3RFFZSktvWklodmNOQVFFTEJRQXdGVEVUTUJFR0ExVUUKQXhNS2EzVmlaWEp1WlhSbGN6QWVGdzB5TmpBM01ETXdOakU0TkROYUZ3MHpOakEyTXpBd05qSXpORE5hTUJVeApFekFSQmdOVkJBTVRDbXQxWW1WeWJtVjBaWE13Z2dFaU1BMEdDU3FHU0liM0RRRUJBUVVBQTRJQkR3QXdnZ0VLCkFvSUJBUUN4ek5pSklhZklpN2VCRlVxeHIyVVAzL1RSVnI4dG0wQS9KQm1iK0VnVDBLRVBweUNXelRCSlVRTVoKTWZpWHdxU29UbkxBMlIzcHI1RkJ2WHQ3dmZnLzdFbGphTTA2NVlmd0M4Q1UxSjRKTzQvWFplcDc2d3RjN1VMQgpCSlBnK1daWVVJZ0FXWWJ2d2o4SGhaY2pWTDdwZHozeFdLYXU4Y0R1TWEza2tZK1oremIxaWhOVThyNHgrcDd4Cjh3ZkY5VVRnTkVKOEh4eHVlek82eFU0NllwTlhZV21jdFNPV2Nsa3Vkak0zcFhYN2VTNU1yRmhma1JoOVFrSVoKMG0yRkZKS3pmaXlSMHlXMnpRYkhwbUJtYzNzZWVXSkNTb1llVTlmN0doNm5UaDlqeWhRb0tUU01CNGNnR0MvRApXS3BtQUhNZUJrSDY0QUY0UjdKVnBHSmt2Mm4xQWdNQkFBR2pXVEJYTUE0R0ExVWREd0VCL3dRRUF3SUNwREFQCkJnTlZIUk1CQWY4RUJUQURBUUgvTUIwR0ExVWREZ1FXQkJUR0RnbkFick8wK3BVRm1vdWt4Nld5YzNBUDNqQVYKQmdOVkhSRUVEakFNZ2dwcmRXSmxjbTVsZEdWek1BMEdDU3FHU0liM0RRRUJDd1VBQTRJQkFRQmVaQ3YyVlNTNgp3TWJZUzBuRkpnRmRoQ1FrQm1sK1hJZUZWV0dGK3kvR3FlRHNtUEdWZkx5V3haVGxZK2oxSkU5RVhxSVg4WjhNCnhzM2U2NEVKeXpFcXBFdk8wY2pVOXY5QWRGcUgzTitBUXZhOVJTb09kaXRmSVJ2R1pBWTAxY25xNk13QU1Ma04KK0VhazlTTmw0TGxEVFg2SndGbzVueXlsS1U4QkQ5cjVhRUVCSkVNeURMSHdpVjF2SjZsVDgrODBnTXA0K0xsawpUUEJnSVQxOFpvVTFSV2JvcEkyc0Z3YTFNczEvc2drMFNLaWk2UnBPUnBQeG9IZnh3a2xRM2ZTMDlobk5pU1FlClliWXdjbk0xMmhXTENlREN3NGY4UW1aRGVOMEJvNFRTT2NlWEhVZUFjcGJmdHhkVjlkMkxFZDFHcVBxdGZEaHAKMHRpK0dwcHpwejZ0Ci0tLS0tRU5EIENFUlRJRklDQVRFLS0tLS0K
+    server: https://94412C3FA6BC78CA072CF5FC7E7C0695.gr7.ap-south-1.eks.amazonaws.com
+  name: arn:aws:eks:ap-south-1:538707364016:cluster/prod-eks-cluster
+- cluster:
+    certificate-authority-data: LS0tLS1CRUdJTiBDRVJUSUZJQ0FURS0tLS0tCk1JSURCVENDQWUyZ0F3SUJBZ0lJUGZuajJvSEtSR2d3RFFZSktvWklodmNOQVFFTEJRQXdGVEVUTUJFR0ExVUUKQXhNS2EzVmlaWEp1WlhSbGN6QWVGdzB5TmpBM01EUXhNREk0TXpSYUZ3MHpOakEzTURFeE1ETXpNelJhTUJVeApFekFSQmdOVkJBTVRDbXQxWW1WeWJtVjBaWE13Z2dFaU1BMEdDU3FHU0liM0RRRUJBUVVBQTRJQkR3QXdnZ0VLCkFvSUJBUUN3VXZTUXNSRXhJMWhUeHhLTHMxME1WTmgwbXRVTlFjSjM3QnZHS05xV1RPM3BWcHJMRWFBN0lhTEsKTFhKeXpMbTZsQzFjaVMxVmZRY21ZWWM0WWZmOEVpUWp5OXBWU0ROYVFVd0V3eFpvV1pQbEFRa0pPOVVFUE9vRwpVaEZ0NWY5SHpBMlVPd1lhZTFRMEhiSnB5VWJiRXJLSEN4bkRlSWRWUm5oMmdjZHdwZUNvZytPaWpsN3A2M0hoCkhQRWoyczZpMVloQnIyYTlHUGY5UmJCTjVwaGRMR1ZKM1Z5TDB4Q1llMDJiY3RaSzlzNmJMTExVeGVlTVZSVFQKcWM5amdGNURsYkVwbUQxT3MrZ2h4am13blA1WnFnWlRxdThMZ2xOdlBKOFBkRHVGSVp2eDNjbUliUVF4d09aMgpQR1Y5UFRtSU8xWUhrUnNpaHB3bDluWExzVFJmQWdNQkFBR2pXVEJYTUE0R0ExVWREd0VCL3dRRUF3SUNwREFQCkJnTlZIUk1CQWY4RUJUQURBUUgvTUIwR0ExVWREZ1FXQkJTUGV6K0lySUNSeFZma2o5bzhrOVRoUE54Q29EQVYKQmdOVkhSRUVEakFNZ2dwcmRXSmxjbTVsZEdWek1BMEdDU3FHU0liM0RRRUJDd1VBQTRJQkFRQ1JmM1QxNmJKUQpuRmliUkxUMUtlRkw2cHp3M3ZIWU10Y3o1VU1LcDFad1hJcTdEVnIvcUZZSGZYaUQrUjVmcHpqNldJZ2lnbzUyClB2S2RlRmt6ZE1NV1RuR2w4eGlXdXFjc1ZvQUdUbGpyN2ZnWVZKMCtYNjI2aE03N3pTK0toK1NrdzhLbXE4dVoKRGx0Z1NYK1VxUWYxY2dJNTNRSnFOck1MR3pwTmJiS2VMcUZHWVplRDRta25NWi9PYXNVNzNRTExxOStLNER3QwpUV3crOUcyUzVFWmZHcXhyRTFrU0c1cjFZN1liNmVjYXVSUjV2Q0oxTFJjekQrNjJDdnlzQTdTNmJEOVMwZmg0CnpFaEQvVG5nby8zZ3l3ZVNBYlAvdkdpcXRZNFlKUmV3dW1iNG83K0JQWXM2eWhRWVR6R0hUTlJ0MlQvTzlIVHEKQVgzaWJxbXd5eFQ1Ci0tLS0tRU5EIENFUlRJRklDQVRFLS0tLS0K
+    server: https://E9B873071D1F3E0B3A5E28E586DE0348.gr7.ap-south-1.eks.amazonaws.com
+  name: dev-cluster.ap-south-1.eksctl.io
+contexts:
+- context:
+    cluster: arn:aws:eks:ap-south-1:538707364016:cluster/dev-cluster
+    user: arn:aws:eks:ap-south-1:538707364016:cluster/dev-cluster
+  name: arn:aws:eks:ap-south-1:538707364016:cluster/dev-cluster
+- context:
+    cluster: arn:aws:eks:ap-south-1:538707364016:cluster/employee-cluster1
+    user: arn:aws:eks:ap-south-1:538707364016:cluster/employee-cluster1
+  name: arn:aws:eks:ap-south-1:538707364016:cluster/employee-cluster1
+- context:
+    cluster: arn:aws:eks:ap-south-1:538707364016:cluster/prod-eks-cluster
+    user: arn:aws:eks:ap-south-1:538707364016:cluster/prod-eks-cluster
+  name: arn:aws:eks:ap-south-1:538707364016:cluster/prod-eks-cluster
+- context:
+    cluster: dev-cluster.ap-south-1.eksctl.io
+    user: sasi@dev-cluster.ap-south-1.eksctl.io
+  name: sasi@dev-cluster.ap-south-1.eksctl.io
+current-context: arn:aws:eks:ap-south-1:538707364016:cluster/dev-cluster
+kind: Config
+users:
+- name: arn:aws:eks:ap-south-1:538707364016:cluster/dev-cluster
+  user:
+    exec:
+      apiVersion: client.authentication.k8s.io/v1beta1
+      args:
+      - --region
+      - ap-south-1
+      - eks
+      - get-token
+      - --cluster-name
+      - dev-cluster
+      - --output
+      - json
+      command: aws
+- name: arn:aws:eks:ap-south-1:538707364016:cluster/employee-cluster1
+  user:
+    exec:
+      apiVersion: client.authentication.k8s.io/v1beta1
+      args:
+      - --region
+      - ap-south-1
+      - eks
+      - get-token
+      - --cluster-name
+      - employee-cluster1
+      - --output
+      - json
+      command: aws
+      env: null
+      interactiveMode: IfAvailable
+      provideClusterInfo: false
+- name: arn:aws:eks:ap-south-1:538707364016:cluster/prod-eks-cluster
+  user:
+    exec:
+      apiVersion: client.authentication.k8s.io/v1beta1
+      args:
+      - --region
+      - ap-south-1
+      - eks
+      - get-token
+      - --cluster-name
+      - prod-eks-cluster
+      - --output
+      - json
+      command: aws
+      env: null
+      interactiveMode: IfAvailable
+      provideClusterInfo: false
+- name: sasi@dev-cluster.ap-south-1.eksctl.io
+  user:
+    exec:
+      apiVersion: client.authentication.k8s.io/v1beta1
+      args:
+      - eks
+      - get-token
+      - --output
+      - json
+      - --cluster-name
+      - dev-cluster
+      - --region
+      - ap-south-1
+      command: aws
+      env:
+      - name: AWS_STS_REGIONAL_ENDPOINTS
+        value: regional
+      provideClusterInfo: false
